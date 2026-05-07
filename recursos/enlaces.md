@@ -3,7 +3,6 @@
 > Curado para esta clase. Mezcla de:
 > - 🎓 Mencionados en el .pptx / material interno.
 > - 🛠️ Recursos extra recomendados (oficiales).
-> - 🏠 URLs internas YYS / TickHat (placeholders → reemplaza por la URL real).
 
 ---
 
@@ -117,32 +116,7 @@
 
 ---
 
-## URLs internas YinyangSEO / TickHat
-
-> ⚠️ Reemplaza estos placeholders por las URLs reales antes de publicar el repo.
-
-| Tipo | Placeholder | Para qué |
-|------|-------------|----------|
-| 🏠 Repo | `https://github.com/YinyangSEO/<repo-tickhat>` | Catálogo de plantillas, componentes y skills. |
-| 🏠 Web | `https://yinyangseo.com` | Home YYS (o la que uses). |
-| 🏠 Skills internas | `https://github.com/YinyangSEO/<skills-internas>` | Repo privado / interno con las 3 skills custom. |
-| 🏠 GEOGRIDS YYS | `<URL de tu herramienta interna>` | Si la mencionas en clase como puente del `gbp-grid-extractor`. |
-| 🏠 Itinerario | `<URL del itinerario completo>` | Página de matrícula / temario. |
-
-**Cómo reemplazar:**
-
-```bash
-# Linux/macOS
-sed -i '' 's|https://github.com/YinyangSEO/<repo-tickhat>|https://github.com/.../...|g' recursos/enlaces.md
-
-# Windows PowerShell
-(Get-Content recursos/enlaces.md) -replace 'https://github.com/YinyangSEO/<repo-tickhat>', 'https://github.com/.../...' | Set-Content recursos/enlaces.md
-```
-
----
-
 ## Convención de iconos
 
 - 🎓 Mencionado en la clase / .pptx / material interno.
 - 🛠️ Recurso extra recomendado (oficial).
-- 🏠 URL interna YYS / TickHat (placeholder).

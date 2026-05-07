@@ -4,7 +4,7 @@
 
 ---
 
-## Checklist del alumno
+## Lo que tienes que tener claro al terminar la Clase 1
 
 - [ ] Sé diferenciar **chat vs agente vs automatización**.
 - [ ] Entiendo **repo / branch / commit**.
@@ -16,31 +16,19 @@
 
 ---
 
-## Checklist del instructor
+## Para que las prácticas fluyan, ten a mano
 
-- [ ] Precios de los agentes **confirmados 24 h antes**.
-- [ ] Demo preparada (1 caso real).
-- [ ] **Una salida real de skill** (captura).
-- [ ] Decidir: **API vs MCP hospedado vs simulación** para la demo.
-- [ ] Aviso ético si se menciona scraping.
-- [ ] PPTX abre correctamente.
-- [ ] Las 5 imágenes del diccionario se ven bien en el proyector.
-- [ ] Probar al menos una skill con un caso real o semireal.
-- [ ] Tener preparado un **ejemplo de negocio local + keyword + ubicación**.
+- [ ] Un agente con preview/navegador integrado (Trae SOLO o Cursor son los más amigables).
+- [ ] Una **API key de Google Places** (datos GBP estables).
+- [ ] Una **API key de SerpAPI** o **DataForSEO** (SERPs estructuradas).
+- [ ] Cuenta gratuita en **Vercel** o **Cloudflare Pages** (para deploy cuando llegue el momento).
+- [ ] Un **ejemplo de negocio local + keyword + ubicación** sobre el que quieras trabajar.
+
+> Todos los enlaces oficiales en [`recursos/enlaces.md`](../recursos/enlaces.md).
 
 ---
 
-## Materiales para entregar
-
-- [ ] PDF del diccionario.
-- [ ] Imagen del stack de 5 niveles.
-- [ ] Tabla comparativa de agentes.
-- [ ] ZIP con las tres skills custom.
-- [ ] Mini-guía: *prompt vs skill vs MCP vs API*.
-
----
-
-## Cierre de clase (2 frases)
+## Cierre · dos frases que se llevan a casa
 
 1. **Criterio > herramienta.**
 2. **Sistema > prompts.**

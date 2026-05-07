@@ -38,11 +38,11 @@
 
 </details>
 
----
-
-## Dinámica recomendada
+<details>
+<summary>📋 Para el ponente · dinámica recomendada</summary>
 
 - **6–7 min** de discusión en grupos.
 - **3 min** de puesta en común guiada.
+- Busca respuestas tipo: CMS / Sheets, PageSpeed, Playwright QA, skill de generación de páginas + QA.
 
-> Busca respuestas tipo: CMS / Sheets, PageSpeed, Playwright QA, skill de generación de páginas + QA.
+</details>

@@ -3,6 +3,9 @@ name: competitor-local-seo-audit
 description: Análisis competitivo SEO local exhaustivo. Úsala SIEMPRE que el usuario pida investigar competencia, hacer auditoría comparativa, sacar informe de competidores, analizar competidores en Google Maps o GBP, hacer análisis de mercado local SEO, o frases como "investiga la competencia de X en Y", "auditame los competidores", "informe de competencia para [cliente]", "compara estos negocios con la competencia", "qué hacen mejor los que rankean por encima". También dispara cuando se mencionen ciudades concretas con un sector (ej. "cerrajeros Sabadell", "fisios Hortaleza", "abogados Bilbao"). Genera entregable docx listo para cliente.
 ---
 
+> 📚 **Itinerario YinyangSEO Academy · Clase 1** — Webs agénticas y SEO eficiente.
+> Esta skill forma parte del repo de la Clase 1. Clona o descarga el repo entero y dáselo a tu agente como contexto antes de ejecutarla. El repo se actualiza durante el curso.
+
 # Competitor Local SEO Audit
 
 Workflow completo para análisis competitivo SEO local. Output final: informe docx profesional listo para cliente.

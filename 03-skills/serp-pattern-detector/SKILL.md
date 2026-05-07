@@ -3,6 +3,9 @@ name: serp-pattern-detector
 description: Analiza SERPs de Google para una keyword y detecta patrones de cómo Google clasifica resultados. Úsala SIEMPRE que el usuario pida analizar SERP, ver qué prefiere Google, detectar patrones de ranking, hacer ingeniería inversa de un nicho, entender por qué rankean los que rankean, comparar AI Overview con orgánico, o frases como "qué patrones detectas en esta SERP", "por qué rankea X", "cómo está rankeando Google [keyword]", "qué tienen en común el top 10 de [keyword]", "ingeniería inversa de [keyword]", "research de [nicho]". Es la skill para detectar señales de algoritmo y construir hipótesis de ranking.
 ---
 
+> 📚 **Itinerario YinyangSEO Academy · Clase 1** — Webs agénticas y SEO eficiente.
+> Esta skill forma parte del repo de la Clase 1. Clona o descarga el repo entero y dáselo a tu agente como contexto antes de ejecutarla. El repo se actualiza durante el curso.
+
 # SERP Pattern Detector
 
 Análisis sistemático de una SERP para detectar patrones de comportamiento del algoritmo de Google. El objetivo: convertir una página de resultados en hipótesis accionables sobre qué está priorizando Google ahora mismo en ese nicho.

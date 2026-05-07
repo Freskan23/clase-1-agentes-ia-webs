@@ -3,6 +3,9 @@ name: gbp-grid-extractor
 description: Extrae rankings de Google Business Profile en cuadrícula geográfica (grid) para una keyword y zona. Úsala SIEMPRE que el usuario pida hacer un grid, geogrid, mapa de calor de rankings, ver visibilidad GBP por zonas, analizar variación geográfica de posiciones, o frases como "haz un grid de [keyword] en [ciudad]", "cómo rankea [negocio] por la zona", "mapa de visibilidad local", "geogrid para [cliente]". También para detectar áreas de oportunidad y radio efectivo de un GBP. Es la skill que replica el trabajo de herramientas tipo Local Falcon, Map Labs o GEOGRIDS de forma agéntica.
 ---
 
+> 📚 **Itinerario YinyangSEO Academy · Clase 1** — Webs agénticas y SEO eficiente.
+> Esta skill forma parte del repo de la Clase 1. Clona o descarga el repo entero y dáselo a tu agente como contexto antes de ejecutarla. El repo se actualiza durante el curso.
+
 # GBP Grid Extractor
 
 Genera un grid de búsquedas geolocalizadas para medir cómo varía el ranking de un negocio (y su competencia) según el punto desde el que se busca.

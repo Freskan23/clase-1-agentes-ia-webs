@@ -39,6 +39,26 @@
 | 🎓 | [SeleniumBase UC Mode](https://github.com/seleniumbase/SeleniumBase) | Modo evasivo dentro de SeleniumBase. |
 | 🎓 | [Crawlee](https://github.com/apify/crawlee) | Framework de scraping responsable. |
 
+## Navegadores cloud para agentes (sin instalación local)
+
+> Útiles cuando la audiencia no técnica no quiere instalar Playwright. El navegador corre en cloud y el agente lo controla por API.
+
+| 🛠️ | [Browserbase](https://www.browserbase.com/) | Navegador cloud + MCP para Claude/Cursor. Live View para ver al agente trabajando. |
+| 🛠️ | [Steel.dev](https://steel.dev/) | Open source + cloud. API simple para agentes. |
+| 🛠️ | [Hyperbrowser](https://hyperbrowser.ai/) | Headless browser as a service con anti-detection. |
+| 🛠️ | [Browser Use](https://github.com/browser-use/browser-use) | Librería que hace al navegador "agent-friendly". |
+
+## Web → markdown para alimentar al agente
+
+> Convierte URLs en contexto limpio para LLMs. Más barato y rápido que renderizar todo con Playwright.
+
+| 🛠️ | [Firecrawl](https://www.firecrawl.dev/) | URL → markdown estructurado. Tiene MCP oficial. |
+| 🛠️ | [Jina Reader](https://r.jina.ai/) | Pones `https://r.jina.ai/` delante de cualquier URL. Gratis. |
+| 🛠️ | [Tavily Search API](https://tavily.com/) | Búsqueda web + extracción optimizada para LLMs. |
+| 🛠️ | [Perplexity Sonar API](https://docs.perplexity.ai/) | Búsqueda con razonamiento integrado. |
+| 🛠️ | [Apify](https://apify.com/) | Marketplace de actores de scraping con MCP. |
+| 🛠️ | [Bright Data MCP](https://github.com/brightdata-com/brightdata-mcp) | Proxies y scraping a escala con MCP. |
+
 ## APIs oficiales (preferir cuando existan)
 
 | 🛠️ | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Datos GBP estables. |
@@ -56,13 +76,37 @@
 | 🛠️ | [Ollama](https://ollama.com/) | LLMs locales open source. |
 | 🛠️ | [LM Studio](https://lmstudio.ai/) | LLMs locales con UI. |
 
-## Web dev y deploy
+## Web dev y deploy (stack recomendado: Astro)
 
-| 🛠️ | [Astro](https://astro.build/) | Framework estático, ideal para SEO. |
-| 🛠️ | [Next.js](https://nextjs.org/) | React con SSR / SSG. |
-| 🛠️ | [Vercel](https://vercel.com/) | Deploy + previews. |
+| 🛠️ | [Astro](https://astro.build/) | Framework estático, ideal para SEO local. **Stack por defecto del curso.** |
+| 🛠️ | [accessible-astro-starter](https://github.com/markteekman/accessible-astro-starter) | Starter accesible y rápido. Buen punto de partida. |
+| 🛠️ | [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) | Sitemap automático para Astro. |
+| 🛠️ | [astro-seo](https://github.com/jonasmerlin/astro-seo) | Componentes SEO/Open Graph para Astro. |
+| 🛠️ | [Next.js](https://nextjs.org/) | Alternativa con React (SSR/SSG). |
+| 🛠️ | [next-sitemap](https://github.com/iamvishnusankar/next-sitemap) | Sitemap automático para Next. |
+| 🛠️ | [Vercel](https://vercel.com/) | Deploy + previews por PR. |
 | 🛠️ | [Cloudflare Pages](https://pages.cloudflare.com/) | Deploy estático con red global. |
 | 🛠️ | [Netlify](https://www.netlify.com/) | Deploy + functions. |
+
+## Componentes UI y schema
+
+| 🛠️ | [schema-dts](https://github.com/google/schema-dts) | Tipos TypeScript oficiales de schema.org. **Para validar JSON-LD antes de escribirlo.** |
+| 🛠️ | [Schema.org Validator](https://validator.schema.org/) | Validador online de JSON-LD. |
+| 🛠️ | [Local Business Schema templates](https://schema.org/LocalBusiness) | Referencia oficial de tipos. |
+| 🛠️ | [Tailwind UI](https://tailwindui.com/) | Patterns de hero, services, FAQ, CTA. |
+| 🛠️ | [DaisyUI](https://daisyui.com/) | Componentes Tailwind open source. |
+| 🛠️ | [shadcn/ui](https://ui.shadcn.com/) | Componentes React copy-paste de alta calidad. |
+
+## Performance y QA
+
+| 🛠️ | [Lighthouse CI](https://github.com/treosh/lighthouse-ci-action) | GitHub Action: budgets de Core Web Vitals en cada PR. |
+| 🛠️ | [Lighthouse npm](https://github.com/GoogleChrome/lighthouse) | Lighthouse local programable. |
+| 🛠️ | [Web Vitals JS](https://github.com/GoogleChrome/web-vitals) | Mide INP, LCP, CLS reales en producción. |
+
+## Analytics privacy-friendly (alternativa GA4)
+
+| 🛠️ | [Plausible](https://plausible.io/) | Self-hostable o SaaS. Sin cookies. |
+| 🛠️ | [Umami](https://umami.is/) | Open source. Self-host fácil. |
 
 ## Lecturas útiles
 

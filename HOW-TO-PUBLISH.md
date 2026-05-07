@@ -5,6 +5,54 @@
 
 ---
 
+## Paso 0 · Limpiar locks (importante, 1 comando)
+
+El sandbox donde se generó el repo no pudo borrar unos archivos `*.lock` huérfanos dentro de `.git/`. Desde Windows se eliminan en 5 segundos:
+
+**PowerShell** (ejecútalo dentro de la carpeta del repo):
+
+```powershell
+cd "C:\Users\panoj\Documents\Clientes\YYS\itinerario agentes\clase 1\repo-github"
+Remove-Item -Force .git\*.lock, .git\objects\maintenance.lock -ErrorAction SilentlyContinue
+Get-ChildItem .git\objects -Recurse -Filter "tmp_obj_*" | Remove-Item -Force
+```
+
+**Git Bash:**
+
+```bash
+cd "/c/Users/panoj/Documents/Clientes/YYS/itinerario agentes/clase 1/repo-github"
+rm -f .git/*.lock .git/objects/maintenance.lock
+find .git/objects -name "tmp_obj_*" -delete
+```
+
+Luego comprueba que todo está bien:
+
+```bash
+git status
+git log --oneline
+```
+
+Debes ver:
+
+```
+On branch main
+nothing to commit, working tree clean
+
+6c7944c docs: añadir guía HOW-TO-PUBLISH
+8e0b986 Clase 1 · Agentes IA para webs hiperoptimizadas — material maestro
+```
+
+> Si por lo que sea sigue dando guerra, lo más rápido es:
+> ```bash
+> rm -rf .git
+> git init -b main
+> git add .
+> git commit -m "Clase 1 · Material maestro"
+> ```
+> Pierdes el historial de los 2 commits, pero da igual: era el commit inicial.
+
+---
+
 ## Opción A · GitHub web + 3 comandos (recomendado)
 
 ### 1 · Crea el repo vacío en GitHub

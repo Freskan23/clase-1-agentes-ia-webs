@@ -1,0 +1,95 @@
+<svg viewBox="0 0 960 760" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.06"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="760" fill="#fafafa"/>
+
+  <!-- Header -->
+  <text x="480" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#111">Stack del demo en directo — Clase Agentes IA + SEO</text>
+  <text x="480" y="68" text-anchor="middle" font-size="14" font-weight="400" fill="#555">Investigación de competidores local, de menor a mayor complejidad</text>
+
+  <!-- Eje vertical "Profundidad" -->
+  <g stroke="#888" stroke-width="1.5" opacity="0.6">
+    <line x1="40" y1="700" x2="40" y2="115" marker-end="url(#arrow)"/>
+  </g>
+  <text x="35" y="400" text-anchor="middle" font-size="12" fill="#666" transform="rotate(-90 35 400)" letter-spacing="2">PROFUNDIDAD · WOW FACTOR</text>
+
+  <!-- Nivel 1: Apertura suave -->
+  <g>
+    <rect x="80" y="620" width="850" height="100" rx="12" fill="url(#g1)" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="125" cy="670" r="28" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="2"/>
+    <text x="125" y="678" text-anchor="middle" font-size="22" font-weight="700" fill="#0a8862">1</text>
+    <text x="175" y="652" font-size="17" font-weight="700" fill="#111">Apertura suave · zero install</text>
+    <text x="175" y="678" font-size="13" font-weight="600" fill="#222">SiteAudit MCP (hospedado en MCPize) · 100 audits/mes gratis</text>
+    <text x="175" y="700" font-size="13" fill="#555">Demo: «audita el competidor 1» → Lighthouse + sitemap + robots + links rotos en 30s</text>
+  </g>
+
+  <!-- Nivel 2: Profundidad técnica -->
+  <g>
+    <rect x="80" y="500" width="850" height="100" rx="12" fill="url(#g2)" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="125" cy="550" r="28" fill="#06b6d4" fill-opacity="0.25" stroke="#06b6d4" stroke-width="2"/>
+    <text x="125" y="558" text-anchor="middle" font-size="22" font-weight="700" fill="#0588a0">2</text>
+    <text x="175" y="532" font-size="17" font-weight="700" fill="#111">Profundidad técnica · 30 herramientas SEO</text>
+    <text x="175" y="558" font-size="13" font-weight="600" fill="#222">mcp-seo-audit (GiorgiKemo, self-hosted) · GSC + CrUX + PSI + Lighthouse local + on-page</text>
+    <text x="175" y="580" font-size="13" fill="#555">Demo: cruzas Search Console del cliente → canibalización + striking distance keywords</text>
+  </g>
+
+  <!-- Nivel 3: Navegación agéntica -->
+  <g>
+    <rect x="80" y="380" width="850" height="100" rx="12" fill="url(#g3)" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="125" cy="430" r="28" fill="#6366f1" fill-opacity="0.25" stroke="#6366f1" stroke-width="2"/>
+    <text x="125" y="438" text-anchor="middle" font-size="22" font-weight="700" fill="#4f52c4">3</text>
+    <text x="175" y="412" font-size="17" font-weight="700" fill="#111">Navegación agéntica · click, captura, itera</text>
+    <text x="175" y="438" font-size="13" font-weight="600" fill="#222">Playwright MCP + Chrome DevTools MCP · soportado en Claude Code / Codex / Cursor</text>
+    <text x="175" y="460" font-size="13" fill="#555">Demo: «visita las top 10 fichas GBP, captura imágenes, dime cuáles han actualizado en 7 días»</text>
+  </g>
+
+  <!-- Nivel 4: Cuando Google bloquea -->
+  <g>
+    <rect x="80" y="260" width="850" height="100" rx="12" fill="url(#g4)" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="125" cy="310" r="28" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+    <text x="125" y="318" text-anchor="middle" font-size="22" font-weight="700" fill="#c93636">4</text>
+    <text x="175" y="292" font-size="17" font-weight="700" fill="#111">Cuando Google bloquea · stealth profesional</text>
+    <text x="175" y="318" font-size="13" font-weight="600" fill="#222">Nodriver · Patchright · Camoufox · undetected-chromedriver</text>
+    <text x="175" y="340" font-size="13" fill="#555">Narrativa: el «limited view» de Maps (feb 2026) mató al scraping ingenuo · zona gris, uso ético</text>
+  </g>
+
+  <!-- Nivel 5: El cierre -->
+  <g>
+    <rect x="80" y="140" width="850" height="100" rx="12" fill="url(#g5)" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="125" cy="190" r="28" fill="#f59e0b" fill-opacity="0.30" stroke="#f59e0b" stroke-width="2.5"/>
+    <text x="125" y="198" text-anchor="middle" font-size="22" font-weight="700" fill="#b87807">5</text>
+    <text x="175" y="172" font-size="17" font-weight="700" fill="#111">El cierre · skill custom · WOW factor</text>
+    <text x="175" y="198" font-size="13" font-weight="600" fill="#222">competitor-local-seo-audit  ·  gbp-grid-extractor  ·  serp-pattern-detector</text>
+    <text x="175" y="220" font-size="13" fill="#555">Demo final: 1 línea de prompt · 5 minutos · informe entregable a cliente listo en docx</text>
+    <text x="855" y="172" text-anchor="end" font-size="11" font-weight="700" fill="#b87807" letter-spacing="1.5">⭐ MOMENTO ESTRELLA</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="480" y="745" text-anchor="middle" font-size="11" fill="#666">
+    Audiencia SEO/marketers · prioridad: capacidades técnicas → precio/calidad → facilidad → velocidad
+  </text>
+</svg>

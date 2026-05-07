@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs y temporales
+*.log
+*.tmp
+.cache/
+
+# Archivos generados / preview que no aportan al repo
+preview_slide_*.png
+visual_preview_slide_*.png
+*.bak
+
+# Secrets
+.env
+.env.*
+*.pem

@@ -9,43 +9,16 @@
 
 ---
 
-## 📥 Cómo usar este repo (alumnos del curso)
+## 📥 ¿Eres alumno? Empieza por aquí
 
-**Este repo ES el material del curso.** Está pensado para que tu agente lo tenga como **contexto** y pueda seguir las prácticas contigo.
+👉 **[EMPEZAR-AQUI.md](EMPEZAR-AQUI.md)** — guía paso a paso: descargar el repo, abrirlo en tu agente, primer prompt y ejemplos por fase.
 
-### Opción 1 · Clonar (si tienes git)
+**Resumen rápido:**
 
-```bash
-git clone https://github.com/Freskan23/clase-1-agentes-ia-webs.git
-cd clase-1-agentes-ia-webs
-```
-
-### Opción 2 · Descargar ZIP (sin git)
-
-1. Abre <https://github.com/Freskan23/clase-1-agentes-ia-webs>
-2. Botón verde **`<> Code`** → **Download ZIP**.
-3. Descomprime en una carpeta de tu equipo.
-
-### Cómo "dárselo" a tu agente
-
-Una vez descargado, abre tu agente (Trae SOLO, Cursor, Claude Code, Windsurf…) **apuntando a esta carpeta como workspace**:
-
-- **Trae / Cursor / Windsurf:** *File → Open Folder* → selecciona la carpeta del repo.
-- **Claude Code (CLI):** `cd ruta/al/repo && claude`.
-- Otros: la mayoría de agentes leen automáticamente el README + carpetas como contexto.
-
-A partir de ahí puedes pedirle cosas como:
-
-> *"Lee el README y el ROADMAP. Resúmeme en qué fase estamos y qué skill tocaría ejecutar primero."*
-
-> *"Lee `03-skills/local-pack-multi-city/SKILL.md` y prepárate para ejecutarla en cuanto te dé keyword + ciudades."*
-
-### 🔄 El repo se actualiza durante el curso
-
-Cada clase añade material nuevo (skills más maduras, outputs reales, starters Astro, etc.). Para tener siempre la última versión:
-
-- Si clonaste: `git pull`.
-- Si descargaste el ZIP: vuelve al link y descarga de nuevo.
+1. **Descarga** el repo: `<> Code` → **Download ZIP**, o `git clone https://github.com/Freskan23/clase-1-agentes-ia-webs.git`.
+2. **Abre la carpeta** con tu agente (Trae SOLO / Cursor / Windsurf / Claude Code) como workspace.
+3. **Pídele que lea** `README.md` y `ROADMAP.md` antes de empezar.
+4. **Vuelve** cada vez que avancemos en el curso (`git pull` o re-descargar ZIP).
 
 ---
 
@@ -53,7 +26,8 @@ Cada clase añade material nuevo (skills más maduras, outputs reales, starters 
 
 | Sección | Contenido |
 |---------|-----------|
-| 🗺️ [**ROADMAP del itinerario**](ROADMAP.md) | Flujo end-to-end desde *investigación* hasta *deploy*. **Léelo después del README.** |
+| 🚀 [**EMPEZAR AQUÍ**](EMPEZAR-AQUI.md) | Guía para alumnos: descarga, primer prompt y ejemplos por fase. |
+| 🗺️ [**ROADMAP del itinerario**](ROADMAP.md) | Flujo end-to-end desde *investigación* hasta *deploy*. |
 | [00 · Comparativa de agentes](00-comparativa-agentes/) | Trae SOLO, Windsurf, Cursor, Claude Code, Codex, OpenCode. Criterio de elección. |
 | [01 · Diccionario técnico](01-diccionario/) | Repo, branch, MCP, tokens, skill, dev server, deploy, BYOK, sandbox… |
 | [02 · Investigación de competidores](02-investigacion-competidores/) | Stack en 5 niveles + repos stealth + advertencia ética. |
